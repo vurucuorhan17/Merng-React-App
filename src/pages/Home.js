@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { useQuery } from "@apollo/react-hooks";
-import gql from "graphql-tag";
 import { Transition,Grid } from "semantic-ui-react";
 import PostCard from "../components/PostCard";
 import { AuthContext } from "../context/auth";
