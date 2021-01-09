@@ -5,7 +5,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 import { setContext } from "apollo-link-context";
 
 const httpLink = createHttpLink({
-    uri: "http://localhost:5000"
+    uri: "https://frozen-mountain-35840.herokuapp.com/"
 });
 
 const authLink = setContext(() => {
